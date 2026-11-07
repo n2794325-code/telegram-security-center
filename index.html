@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telegram 安全服务中心</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#0b1220;
+ color:#fff;
+}
+header{
+ padding:22px;
+ background:#111d30;
+ border-bottom:1px solid #26364d;
+}
+.logo{font-size:22px;font-weight:bold;color:#55b9ed}
+.hero{
+ padding:65px 22px;
+ text-align:center;
+ background:linear-gradient(145deg,#142c49,#0b1220);
+}
+.hero h1{font-size:32px}
+.hero p{color:#b9c8d8;line-height:1.8}
+.btn{
+ display:inline-block;
+ padding:13px 24px;
+ background:#2589d8;
+ color:white;
+ text-decoration:none;
+ border-radius:9px;
+ margin-top:15px;
+}
+main{padding:25px 18px}
+h2{text-align:center}
+.cards{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:14px;
+}
+.card{
+ background:#17253a;
+ border:1px solid #2b405c;
+ padding:20px 14px;
+ border-radius:13px;
+}
+.card h3{color:#61baf0}
+.card p{font-size:14px;color:#b9c8d8;line-height:1.7}
+.notice{
+ margin-top:25px;
+ padding:20px;
+ background:#17253a;
+ border-radius:12px;
+ line-height:1.8;
+ color:#c5d5e6;
+}
+footer{
+ text-align:center;
+ padding:25px;
+ color:#8293a8;
+ font-size:13px;
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo">✈ Telegram Security</div>
+</header>
+<section class="hero">
+ <h1>Telegram 安全服务中心</h1>
+ <p>账号安全指导 · 防诈骗 · 隐私保护 · 技术支持</p>
+ <a class="btn" href="#services">查看服务</a>
+</section>
+<main>
+ <h2 id="services">服务项目</h2>
+ <div class="cards">
+  <div class="card">
+   <h3>🛡 账号安全</h3>
+   <p>了解账号保护方法，学习安全设置。</p>
+  </div>
+  <div class="card">
+   <h3>🔐 双重验证</h3>
+   <p>学习设置额外密码和恢复邮箱。</p>
+  </div>
+  <div class="card">
+   <h3>🚨 防诈骗指南</h3>
+   <p>识别虚假客服、钓鱼链接和验证码诈骗。</p>
+  </div>
+  <div class="card">
+   <h3>🤖 技术支持</h3>
+   <p>Telegram 机器人配置和技术咨询。</p>
+  </div>
+ </div>
+ <div class="notice">
+  <strong>安全提醒</strong><br>
+  本网站提供安全知识和技术指导。
+  不收集用户登录验证码、密码或账号会话文件。
+ </div>
+</main>
+<footer>
+ Telegram Security Center<br>
+ 安全第一 · 保护隐私
+</footer>
+</body>
+</html>
